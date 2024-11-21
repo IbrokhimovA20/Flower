@@ -962,6 +962,14 @@ body {
         transform: scale(0.5) rotate(79deg) rotateX(10deg) rotateY(-200deg);
    }
 }
+.snowflake {
+    position: fixed;
+    top: -10px;
+    z-index: 9999;
+    pointer-events: none;
+    opacity: 0.8;
+    color: #FFF;
+  }
 .growing-grass {
     animation: growing-grass-ans 1s 2s backwards;
 }
